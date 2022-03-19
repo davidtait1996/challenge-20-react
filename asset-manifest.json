@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/challenge-20-react/static/css/main.2598f9ac.css",
+    "main.js": "/challenge-20-react/static/js/main.bc94315d.js",
+    "static/media/planet-express.png": "/challenge-20-react/static/media/planet-express.1aa1abea9ef50b6060e0.png",
+    "static/media/weather-dashboard.png": "/challenge-20-react/static/media/weather-dashboard.1c46abb34fec0eda7963.png",
+    "static/media/employee-chart.png": "/challenge-20-react/static/media/employee-chart.c0839f3fa048e8f4aab7.png",
+    "index.html": "/challenge-20-react/index.html",
+    "main.2598f9ac.css.map": "/challenge-20-react/static/css/main.2598f9ac.css.map",
+    "main.bc94315d.js.map": "/challenge-20-react/static/js/main.bc94315d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2598f9ac.css",
+    "static/js/main.bc94315d.js"
+  ]
+}
