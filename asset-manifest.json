@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/challenge-20-react/static/css/main.ae00df6b.css",
-    "main.js": "/challenge-20-react/static/js/main.080f5d48.js",
+    "main.css": "/challenge-20-react/static/css/main.07f21d5d.css",
+    "main.js": "/challenge-20-react/static/js/main.c6a30b66.js",
     "static/media/planet-express.png": "/challenge-20-react/static/media/planet-express.1aa1abea9ef50b6060e0.png",
     "static/media/portrait.JPG": "/challenge-20-react/static/media/portrait.54255f837dfd297a6d82.JPG",
     "static/media/weather-dashboard.png": "/challenge-20-react/static/media/weather-dashboard.1c46abb34fec0eda7963.png",
     "static/media/Resume.pdf": "/challenge-20-react/static/media/Resume.acefc6120a64b5ce5ada.pdf",
     "static/media/employee-chart.png": "/challenge-20-react/static/media/employee-chart.c0839f3fa048e8f4aab7.png",
     "index.html": "/challenge-20-react/index.html",
-    "main.ae00df6b.css.map": "/challenge-20-react/static/css/main.ae00df6b.css.map",
-    "main.080f5d48.js.map": "/challenge-20-react/static/js/main.080f5d48.js.map"
+    "main.07f21d5d.css.map": "/challenge-20-react/static/css/main.07f21d5d.css.map",
+    "main.c6a30b66.js.map": "/challenge-20-react/static/js/main.c6a30b66.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae00df6b.css",
-    "static/js/main.080f5d48.js"
+    "static/css/main.07f21d5d.css",
+    "static/js/main.c6a30b66.js"
   ]
 }
