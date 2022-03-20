@@ -37,7 +37,7 @@ function Contact() {
     <div className=''>
       <div id = "form-id" className='d-flex justify-content-center flex-nowrap mt-4'>
         <section id="form-area" className=' '>
-          <h1 data-testid="h1tag">Contact me</h1>
+          <h1 className='my-3' data-testid="h1tag">Contact me</h1>
           <form id="contact-form" className='d-flex-inline justify-content-start' onSubmit={handleSubmit}>
             <div className='d-flex justify-content-center align-items-center flex-nowrap my-2'>
               <input 

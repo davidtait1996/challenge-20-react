@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
 
   return (
-    <section className="my-5" >
+    <section id="footer" className="my-5" >
 
       <a href='https://github.com/davidtait1996'>
         <i class="fa-brands fa-github fa-2xl m-1 mb-5"></i>

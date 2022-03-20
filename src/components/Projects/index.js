@@ -27,6 +27,18 @@ function Projects(props) {
       deploy: "https://github.com/davidtait1996/challenge-10-OOP",
       github: "https://github.com/davidtait1996/challenge-10-OOP",
       image: "employee-chart",
+    },
+    {
+      title: "Employee Organization Chart",
+      deploy: "https://github.com/davidtait1996/challenge-10-OOP",
+      github: "https://github.com/davidtait1996/challenge-10-OOP",
+      image: "employee-chart",
+    },
+    {
+      title: "Employee Organization Chart",
+      deploy: "https://github.com/davidtait1996/challenge-10-OOP",
+      github: "https://github.com/davidtait1996/challenge-10-OOP",
+      image: "employee-chart",
     }
   ];
 
