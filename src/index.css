@@ -79,6 +79,15 @@ a {
   background-color: #BFCDE0 !important;
 }
 
+@media screen and (max-width:990px) {
+  #fullNav { 
+    flex-wrap: wrap;
+  }
+  .name {
+    width: 100% !important;
+  }
+}
+
 #fullNav:hover {
   border-color: #BFCDE0 !important;
 }
