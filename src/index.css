@@ -152,3 +152,7 @@ textarea {
 #form-id {
   width: auto;
 }
+
+#portrait {
+  width: 25%;
+}
