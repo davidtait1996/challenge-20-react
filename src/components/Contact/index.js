@@ -26,7 +26,7 @@ function Contact() {
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
+        setErrorMessage(`A ${e.target.name} is required.`);
       } else {
         setErrorMessage('');
       }
@@ -38,16 +38,16 @@ function Contact() {
       <section id="form-area" className='col-md-6 '>
         <h1 data-testid="h1tag">Contact me</h1>
         <form id="contact-form" className='d-flex-inline justify-content-start' onSubmit={handleSubmit}>
-          <div className='d-flex justify-content-between align-items-center'>
-            <label htmlFor="name">Name:</label>
+          <div className='d-flex justify-content-center align-items-center flex-wrap my-2'>
+            <label htmlFor="name">Name</label>
             <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
           </div>
-          <div className='d-flex justify-content-between align-items-center'>
-            <label htmlFor="email">Email address:</label>
+          <div className='d-flex justify-content-center align-items-center flex-wrap my-2'>
+            <label htmlFor="email">Email address</label>
             <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
           </div>
-          <div className='d-flex justify-content-between align-items-center'>
-            <label htmlFor="message">Message:</label>
+          <div className='d-flex justify-content-center align-items-center flex-wrap my-2'>
+            <label htmlFor="message">Message</label>
             <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
           </div>
           {errorMessage && (

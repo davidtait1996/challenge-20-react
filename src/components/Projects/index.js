@@ -33,7 +33,7 @@ function Projects(props) {
   return (
     <div className="d-flex flex-row justify-content-between flex-wrap">
       {projectsArr.map((project) => (
-        <div className="container d-flex flex-wrap justify-content-center my-4">
+        <div className="container d-flex flex-wrap justify-content-center my-5">
           <img
             src={require(`../../assets/images/${project.image}.png`)}
             alt={project.title}
