@@ -10,7 +10,7 @@ function About() {
       <div className="my-2">
         <p>
           I'm David Tait from Salt Lake City, Utah. Hire me!
-      </p>
+        </p>
       </div>
     </section>
   )
