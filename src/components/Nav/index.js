@@ -4,7 +4,7 @@ import React from 'react';
 // We assign them to their own variable names
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <div className='d-flex align-items-center justify-content'>
+    <div id="fullNav" className='d-flex align-items-center justify-content'>
 
       <div className='nav-item name w-25'>
         <a

@@ -34,19 +34,19 @@ function Contact() {
   };
 
   return (
-    <div className='d-flex justify-content-center mt-4'>
+    <div id = "form-id" className='d-flex justify-content-center flex-nowrap mt-4'>
       <section id="form-area" className='col-md-6 '>
         <h1 data-testid="h1tag">Contact me</h1>
         <form id="contact-form" className='d-flex-inline justify-content-start' onSubmit={handleSubmit}>
-          <div>
+          <div className='d-flex justify-content-between align-items-center'>
             <label htmlFor="name">Name:</label>
             <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
           </div>
-          <div>
+          <div className='d-flex justify-content-between align-items-center'>
             <label htmlFor="email">Email address:</label>
             <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
           </div>
-          <div>
+          <div className='d-flex justify-content-between align-items-center'>
             <label htmlFor="message">Message:</label>
             <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
           </div>

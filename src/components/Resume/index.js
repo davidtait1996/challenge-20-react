@@ -4,7 +4,10 @@ import pdf from '../../assets/pdf/Resume.pdf'
 function Resume() {
 
   return (
-    <a href= {pdf}> Click Here for my Resume</a>
+    <div className='mt-4'>
+      <a href= {pdf}> Click Here for my Resume</a>
+    </div>
+
   )
 }
 
